@@ -28,9 +28,9 @@ int sumNumbs(int numb1, int numb2)
         }
         else if (numb1 < 0 && numb2 > 0)
         {
-            return 0 + sumNumbs(numb1 + 1, numb2); /* если есть число < 0 */
+            return 0 + sumNumbs(numb1 + 1, numb2); /* если первое число < 0 */
         }
-        else
+        else /* если оба числа < 0*/
         {
             System.Console.WriteLine("Некорректно введены числа");
         }
